@@ -19,7 +19,8 @@ namespace ComicBookGallery.Data
                     new Artist(){Name="Victor Olazaba",Role="Inks"},
                     new Artist(){Name="Edgar Delgado",Role="Colors"},
                     new Artist(){Name="Letters",Role="Chris Eliopoulos"},
-                }
+                },
+                Favourites = true
             },
             new ComicBook()
             {
@@ -35,7 +36,7 @@ namespace ComicBookGallery.Data
                     new Artist() { Name = "Muntsa Vicente", Role = "Colors" },
                     new Artist() { Name = "Joe Caramagna", Role = "Letters" }
                 },
-                //Favorite = false
+                Favourites = true
             },
             new ComicBook()
             {
@@ -50,7 +51,7 @@ namespace ComicBookGallery.Data
                     new Artist() { Name = "Jeff Smith", Role = "Inks" },
                     new Artist() { Name = "Jeff Smith", Role = "Letters" }
                 },
-                //Favorite = false
+                Favourites = false
             }
         };
             
